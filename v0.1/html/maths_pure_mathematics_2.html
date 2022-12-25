@@ -181,6 +181,7 @@
                     <li><p>The equation of a circle with centre \( (0, 0) \) and radius \( r \) is \( x^{2} + y^{2} = r^{2} \).</p></li>
                     <li><p>The equation of the circle with centre \( (a, b) \) and radius r is \( (x - a)^{2} + (y - b)^{2} = r^{2} \).</p></li>
                 </ul>
+                <img class="narrow" src="../images/pm2/c2s2.png" alt="c2s2.png">
                 <p>If you need to find the centre and radius of a circle with an equation given in expanded form it is usually safest to complete the square for the \( x \) and \( y \) terms.</p>
 
                 <a name="s2_3"><h5>2.3 Intersections of straight lines and circles</h5></a>
@@ -194,19 +195,23 @@
                 <ul>
                     <li>A tangent to a circle is perpendicular to the radius of the circle at the point of intersection.</li>
                 </ul>
+                <img class="narrow" src="../images/pm2/c2s4_1.png" alt="c2s4_1.png">
                 <p>A chord is a line segment that joins two points on the circumference of a circle.</p>
                 <ul>
                     <li><p>The perpendicular bisector of a chord will go through the centre of a circle.</p></li>
                 </ul>
+                <img class="narrow" src="../images/pm2/c2s4_2.png" alt="c2s4_2.png">
 
                 <a name="s2_5"><h5>2.5 Circles and triangles</h5></a>
                 <p>A triangle consists of three points, called vertices. It is always possible to draw a unique circle through the three vertices of any triangle. This circle is called the circumcircle of the triangle. The centre of the circle is called the circumcentre of the triangle and is the point where the perpendicular bisectors of each side intersect.</p>
+                <img class="narrow" src="../images/pm2/c2s5_1.png" alt="c2s5_1.png">
                 <p>For a right-angled triangle, the hypotenuse of the triangle is a diameter of the circumcircle.</p>
                 <p>You can state this result in two other ways: </p>
                 <ul>
                     <li><p>If \( \angle P R Q = 90^{\circ} \) then \( R \) lies on the circle with diameter \( P Q \).</p></li>
                     <li><p>The angle in a semicircle is always a right angle.</p></li>
                 </ul>
+                <img class="narrow" src="../images/pm2/c2s5_2.png" alt="c2s5_2.png">
                 <p>To find the centre of a circle given any three points on the circumference: </p>
                 <ul>
                     <li><p>Find the equations of the perpendicular bisectors of two different chords.</p></li>
@@ -379,6 +384,7 @@
                     </li>
                 </ul>
                 <p>You can use these definitions to find the values of sine, cosine and tangent for any angle \( \theta \). You always measure positive angles \( \theta \) anticlockwise from the positive \( x \)-axis.</p>
+                <img class="narrow" src="../images/pm2/c6s1_1.png" alt="c6s1_1.png">
                 <p>The \( x \)-\( y \) plane is divided into quadrants: </p>
                 <p>Angles may lie outside the range \( 0 \)-\( 360^{\circ} \), but they will always lie in one of the four quadrants. For example, an angle of \( 600^{\circ} \) would be equivalent to \( 600^{\circ} - 360^{\circ} = 240^{\circ} \), so it would lie in the thrid quadrant.</p>
                 <ul>
@@ -455,6 +461,7 @@
                 <ul>
                     <li><p>The area between a positive curve, the \( x \)-axis and the lines \( x = a \) and \( x = b \) is given by \( \text{Area} = \int_{a}^{b} y\ dx \) where \( y = f(x) \) is the equation of the curve.</p></li>
                 </ul>
+                <img class="wide" src="../images/pm2/c8s2.png" alt="c8s2.png">
 
                 <a name="s8_3"><h5>8.3 Areas under the \( \boldsymbol{x} \)-axis</h5></a>
                 <ul>
@@ -476,11 +483,15 @@
                 <a name="s8_6"><h5>8.6 The trapezium rule</h5></a>
                 <p>If you cannot integrate a function algebraically, you can use a numerical method to approximate the area beneath a curve.</p>
                 <p>Consider the curve \( y = f(x) \): </p>
+                <img class="wide" src="../images/pm2/c8s6_1.png" alt="c8s6_1.png">
                 <p>To approximate the area given by \( \int_{a}^{b} y\ dx \), you can divide the area up into \( n \) equal strips. Each strip will be of width \( h \), where \( h = \frac{b - a}{n} \)</p>
+                <img class="wide" src="../images/pm2/c8s6_2.png" alt="c8s6_2.png">
                 <p>Next you calculate the value of \( y \) for each value of \( x \) that forms a boundary of one of the strips. So you find \( y \) for \( x = a \), \( x = a + h \), \( x = a + 2 h \), \( x = a + 3 h \) and so on up to \( x = b \).</p>
                 <p>You can label these values \( y_{0}, y_{1}, y_{2}, y_{3}, ..., y_{n} \).</p>
+                <img class="wide" src="../images/pm2/c8s6_3.png" alt="c8s6_3.png">
                 <p>Finally you join adjacent points to form \( n \) trapeziums and approximate the original area by the sum of the areas of these \( n \) trapeziums.</p>
                 <p>That the area of a trapezium like this: </p>
+                <img class="wide" src="../images/pm2/c8s6_4.png" alt="c8s6_3.png">
                 <p>is given by \( \frac{1}{2} (y_{0} + y_{1}) h \). The required area under the curve is therefore given by: \( \int_{a}^{b} y\ dx \approx \frac{1}{2} h ((y_{0} + y_{1}) + \frac{1}{2} h (y_{1} + y_{2}) + ... + \frac{1}{2} h (y_{n - 1} + y_{n}) \)</p>
                 <p>Factorising gives: \( \int_{a}^{b} y\ dx \approx \frac{1}{2} h (y_{0} + 2 (y_{1} + y_{2} + ... + y_{n - 1}) + y_{n}) \)</p>
                 <ul>
